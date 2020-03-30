@@ -11,5 +11,6 @@ public class Main {
         Logger.trace("This is a TRACE message");
         Logger.info(message: "User's name is {}", System.getProperty("user.name"));
         Logger.error(new RuntimeException("Oops"), message:"Something is wrong");
-    }    
+    } 
+    
 } 
